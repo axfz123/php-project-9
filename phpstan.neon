@@ -1,0 +1,12 @@
+parameters:
+  level: 8
+  paths:
+    - src
+    - tests
+    - bin/gendiff
+
+  excludePaths:
+    - vendor
+
+  ignoreErrors:
+   - identifier: missingType.iterableValue

@@ -1,0 +1,25 @@
+{
+    "name": "hexlet/code",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey Zhabin",
+            "email": "axfz@ya.ru"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    },
+    "require": {
+        "slim/slim": "^4.15",
+        "php-di/php-di": "^7.1",
+        "slim/flash": "^0.4.0",
+        "slim/psr7": "^1.7"
+    }
+}
